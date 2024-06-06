@@ -51,11 +51,11 @@
                 :modules="modules"
                 class="swiperPartnerBrands"
                 >
-                    <swiper-slide v-for="(logo, index) in 8" :key="index">
+                    <swiper-slide v-for="(review, index) in reviews" :key="index">
                         <div class="border rounded-md overflow-hidden bg-red-100">
                             <div class="bg-black bg-opacity-80 flex items-center gap-4 text-gray-300 py-2 px-3">
                                 <span>
-                                    Justin: 
+                                    {{ review.name }}: 
                                 </span>
                                 <div class="flex items-center">
                                     <svg v-for="(item, index) in 5" :key="index" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
@@ -65,7 +65,7 @@
                             </div>
                             
                             <p class="text-sm p-3">
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis mollitia aspernatur ratione tempore id voluptatem.
+                                {{ review.text }}
                             </p>
                         </div>
                     </swiper-slide>
@@ -200,6 +200,33 @@ import { Swiper, SwiperSlide } from "swiper/vue";
 import "swiper/css";
 
 const modules = [Autoplay];
+
+const reviews = ref([
+    {
+        name: 'Justin',
+        text: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis mollitia aspernatur ratione tempore id voluptatem.',
+    },
+    {
+        name: 'Studiolyze',
+        text: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis mollitia aspernatur ratione tempore id voluptatem.',
+    },
+    {
+        name: 'Alice',
+        text: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis mollitia aspernatur ratione tempore id voluptatem.',
+    },
+    {
+        name: 'oromtv',
+        text: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis mollitia aspernatur ratione tempore id voluptatem.',
+    },
+    {
+        name: 'Alex',
+        text: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis mollitia aspernatur ratione tempore id voluptatem.',
+    },
+    {
+        name: 'Brayn',
+        text: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis mollitia aspernatur ratione tempore id voluptatem.',
+    },
+])
 
 // Define FAQs
 const faqs = ref([
