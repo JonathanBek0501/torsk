@@ -8,6 +8,9 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  modules: [
+    '@nuxtjs/i18n',
+  ],
   app: {
     head: {
         title: 'Torsk',

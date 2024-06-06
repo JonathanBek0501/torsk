@@ -7,6 +7,6 @@
         @apply scroll-smooth
     }
     body {
-        @apply font-poppins bg-red-50
+        @apply font-poppins bg-brand-red-50
     }
 }

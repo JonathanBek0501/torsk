@@ -1,6 +1,6 @@
 <template>
     <header>
-        <div class="bg-red-500 flex justify-between lg:grid grid-cols-3 py-4 px-5">
+        <div class="bg-brand-red-500 flex justify-between lg:grid grid-cols-3 py-4 px-5">
             <div class="ml-0 m-auto">
                 <span class="font-medium text-xl text-white">
                     Torsk.net
@@ -20,7 +20,7 @@
                 </button>
             </div>
         </div>
-        <div class="block md:hidden bg-red-400 px-5">
+        <div class="block md:hidden bg-brand-red-400 px-5">
             <div class="flex justify-center">
                 <a v-for="(navLink, index) in navLinks" :key="index" :href="navLink.href" class="text-white font-medium transition-all ease-in-out hover:bg-black/10 p-2">
                     {{ navLink.title }}

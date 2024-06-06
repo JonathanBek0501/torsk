@@ -12,6 +12,17 @@ export default {
     extend: {
       fontFamily: {
         poppins: ['Poppins', 'sans-serif']
+      },
+      colors: {
+        brand: {
+          red: {
+            50: '#FEF2F2',
+            100: '#FEE2E2',
+            300: '#FCA5A5',
+            400: '#F87171',
+            500: '#EF4444',
+          }
+        }
       }
     },
   },
