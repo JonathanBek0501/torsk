@@ -2,7 +2,7 @@
     <section>
         <div class="py-20">
             <h2 class="max-w-xs md:max-w-md mx-auto text-3xl md:text-4xl xl:text-5xl font-bold text-center">
-                What customers think about us
+                {{t("reviews.title")}}
             </h2>
             <div class="pt-10">
                 <swiper
@@ -55,7 +55,7 @@
 
             <div class="flex justify-center mt-10">
                 <a href="#" class="inline-block rounded bg-brand-red-500 hover:bg-brand-red-400 text-white text-lg px-8 py-2">
-                    Gig on Fiverr
+                    {{t("reviews.btn")}}
                 </a>
             </div>
         </div>
@@ -66,6 +66,8 @@
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/vue";
 import "swiper/css";
+
+const { t } = useI18n()
 
 const modules = [Autoplay];
 

@@ -10,7 +10,14 @@ export default defineNuxtConfig({
   },
   modules: [
     '@nuxtjs/i18n',
+    '@pinia/nuxt',
   ],
+  pinia: {
+    storesDirs: ['./store/**'],
+  },
+  i18n: {
+    vueI18n: './i18n.config.ts' 
+  },
   app: {
     head: {
         title: 'Torsk',
@@ -29,4 +36,5 @@ export default defineNuxtConfig({
         ]
     },
   },
+  ssr: false
 })

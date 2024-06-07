@@ -2,44 +2,44 @@
     <section id="book">
         <div class="max-w-7xl mx-auto px-4 py-12 lg:py-20">
             <h2 class="text-3xl md:text-4xl xl:text-5xl font-bold text-center max-w-xl mx-auto">
-                Booking is <span class="text-brand-red-500">Simple, Quick, <br>and Accurate.</span>
+                {{t("book.title")}} <span class="text-brand-red-500"> {{t("book.color-title")}} <br> {{t("book.color-title2")}}</span>
             </h2>
             <div class="mt-16">
                 <ul class="max-w-4xl mx-auto space-y-12 text-sm sm:text-lg lg:text-xl text-gray-500">
                     <li class="flex items-center sm:items-stretch gap-3">
                         <div class="min-w-12 min-h-24 sm:min-h-fit sm:min-w-40 flex items-center justify-center rounded-l-xl bg-brand-red-500 text-white sm:text-xl md:text-2xl py-2 px-4 sm:px-6">
                             <span class="-rotate-90 sm:rotate-0">
-                                Simple
+                                {{t("book.simple.name")}}
                             </span>
                         </div>
                         <p>
-                            All you need to do is to send me a download link to your video, and I will take care of the rest! I will transcribe the audio, translate it if requested, and create a subtitle file supported by all major video platforms.
+                            {{t("book.simple.text")}}
                         </p>
                     </li>
                     <li class="flex items-center sm:items-stretch gap-3">
                         <p>
-                            Subtitles will be delivered within 24 hours or at most 3 days from your request.
+                            {{t("book.quick.text")}}
                         </p> 
                         <div class="min-w-12 min-h-24 sm:min-h-fit sm:min-w-40 flex items-center justify-center rounded-r-xl bg-brand-red-500 text-white sm:text-xl md:text-2xl py-2 px-4 sm:px-6">
                             <span class="rotate-90 sm:rotate-0">
-                                Quick
+                                {{t("book.quick.name")}}
                             </span>
                         </div>
                     </li>
                     <li class="flex items-center sm:items-stretch gap-3">
                         <div class="min-w-12 min-h-24 sm:min-h-fit sm:min-w-40 flex items-center justify-center rounded-l-xl bg-brand-red-500 text-white sm:text-xl md:text-2xl py-2 px-4 sm:px-6">
                             <span class="-rotate-90 sm:rotate-0">
-                                Accurate
+                                {{t("book.accurate.name")}}
                             </span>
                         </div>
                         <p>
-                            Your subtitles will adhere to international <strong>standarts</strong> and have perfect sync.
+                            {{t("book.accurate.text")}} <strong>{{t("book.accurate.bold")}}</strong> {{t("book.accurate.text2")}}
                         </p>
                     </li>
 
                     <li class="relative bg-brand-red-300 rounded-md p-10">
                         <p class="text-white text-center">
-                            An invoice will be sent to you after the delivery of the subtitles. If you find any errors or misunderstandings, please reach out and I will correct them free of charge.
+                            {{t("book.description")}}
                         </p>
 
                         <svg class="absolute right-36 sm:right-40 -bottom-32 lg:-bottom-28 rotate-12 text-brand-red-500 w-8 lg:w-10" width="64" height="210" viewBox="0 0 64 210" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -53,49 +53,49 @@
                         <form action="" class="grid sm:grid-cols-2 gap-5">
                             <div class="flex flex-col gap-2.5">
                                 <label for="firstName" class="font-medium">
-                                    First Name
+                                    {{t("book.form.first")}}
                                 </label>
-                                <input type="text" id="firstName" placeholder="First Name" class="focus:outline-none focus:ring-1 focus:ring-gray-400 h-10 px-4">
+                                <input type="text" id="firstName" :placeholder="t('book.form.first')" class="focus:outline-none focus:ring-1 focus:ring-gray-400 h-10 px-4">
                             </div>
                             <div class="flex flex-col gap-2.5">
                                 <label for="lastName" class="font-medium">
-                                    Last Name
+                                    {{t("book.form.last")}}
                                 </label>
-                                <input type="text" id="lastName" placeholder="Last Name" class="focus:outline-none focus:ring-1 focus:ring-gray-400 h-10 px-4">
+                                <input type="text" id="lastName" :placeholder="t('book.form.last')" class="focus:outline-none focus:ring-1 focus:ring-gray-400 h-10 px-4">
                             </div>
                             <div class="flex flex-col gap-2.5">
                                 <label for="email" class="font-medium">
-                                    Email
+                                    {{t("book.form.email")}}
                                 </label>
-                                <input type="email" id="email" placeholder="E-mail" class="focus:outline-none focus:ring-1 focus:ring-gray-400 h-10 px-4">
+                                <input type="email" id="email" :placeholder="t('book.form.email')" class="focus:outline-none focus:ring-1 focus:ring-gray-400 h-10 px-4">
                             </div>
                             <div class="flex flex-col gap-2.5">
                                 <label for="companyName" class="font-medium">
-                                    Company Name
+                                    {{t("book.form.company")}}
                                 </label>
-                                <input type="text" id="companyName" placeholder="Company" class="focus:outline-none focus:ring-1 focus:ring-gray-400 h-10 px-4">
+                                <input type="text" id="companyName" :placeholder="t('book.form.company')" class="focus:outline-none focus:ring-1 focus:ring-gray-400 h-10 px-4">
                             </div>
                             <div class="flex flex-col gap-2.5">
                                 <label for="videoLink" class="font-medium">
-                                    Video Link
+                                    {{t("book.form.link")}}
                                 </label>
-                                <input type="text" id="videoLink" placeholder="Link" class="focus:outline-none focus:ring-1 focus:ring-gray-400 h-10 px-4">
+                                <input type="text" id="videoLink" :placeholder="t('book.form.link')" class="focus:outline-none focus:ring-1 focus:ring-gray-400 h-10 px-4">
                             </div>
                             <div class="flex flex-col gap-2.5">
                                 <span class="font-medium">
-                                    What do you need?
+                                    {{t("book.form.need.name")}}
                                 </span>
                                 <div>
                                     <div class="flex items-center gap-2">
                                         <input type="checkbox" id="transc">
                                         <label for="transc" class="text-sm">
-                                            Transcription subtitles
+                                            {{t("book.form.need.one")}}
                                         </label>
                                     </div>
                                     <div class="flex items-center gap-2">
                                         <input type="checkbox" id="transl">
                                         <label for="transl" class="text-sm">
-                                            Translation subtitles
+                                            {{t("book.form.need.two")}}
                                         </label>
                                     </div>
                                 </div>
@@ -103,13 +103,13 @@
 
                             <div class="sm:col-span-2 flex flex-col gap-2.5">
                                 <label for="videoLink" class="font-medium">
-                                    Other details, requests, or questions
+                                    {{t("book.form.textare.name")}}
                                 </label>
-                                <textarea name="" id="" cols="30" rows="2" placeholder="Description" class="max-h-40 min-h-20 focus:outline-none focus:ring-1 focus:ring-gray-400 py-4 px-5"></textarea>
+                                <textarea name="" id="" cols="30" rows="2":placeholder="t('book.form.textare.placeholder')" class="max-h-40 min-h-20 focus:outline-none focus:ring-1 focus:ring-gray-400 py-4 px-5"></textarea>
                             </div>
                             
                             <button type="submit" class="sm:col-span-2 w-fit mx-auto rounded bg-brand-red-500 hover:bg-brand-red-400 text-white text-lg px-8 py-2">
-                                Request a free quote
+                                {{t("book.form.btn")}}
                             </button>
                         </form>
                     </div>
@@ -118,3 +118,7 @@
         </div>
     </section>
 </template>
+
+<script setup>
+const { t } = useI18n()
+</script>

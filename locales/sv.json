@@ -1,0 +1,81 @@
+{
+  "nav": {
+    "home": "Hem",
+    "faqs": "Vanliga frågor",
+    "quote": "Begär en offert"
+  },
+  "hero": {
+    "title": "Välkommen",
+    "text": "till min undertextning- och översättningstjänst. Letar du efter en smidig process för att lägga till undertexter till ditt videoinnehåll? Sök inte längre!",
+    "btn": "Boka gratis offert NU"
+  },
+  "reviews": {
+    "title": "Vad kunder tycker om oss",
+    "btn": "Gig på Fiverr"
+  },
+  "book": {
+    "title": "Bokning är",
+    "color-title": "Enkel, Snabb,",
+    "color-title2": "och Noggrann.",
+    "simple": {
+        "name": "Enkel",
+        "text": "Allt du behöver göra är att skicka mig en nedladdningslänk till din video, och jag tar hand om resten! Jag kommer att transkribera ljudet, översätta det om så önskas, och skapa en undertextfil som stöds av alla större videoplattformar."
+    },
+    "quick": {
+        "name": "Snabb",
+        "text": "Undertexter levereras inom 24 timmar eller senast 3 dagar från din förfrågan."
+    },
+    "accurate": {
+        "name": "Noggrann",
+        "text": "Dina undertexter kommer att följa internationella",
+        "bold": "standarder",
+        "text2": "och ha perfekt synk."
+    },
+    "description": "En faktura skickas till dig efter leveransen av undertexterna. Om du hittar några fel eller missförstånd, vänligen kontakta mig så rättar jag dem kostnadsfritt.",
+    "form": {
+        "first": "Förnamn",
+        "last": "Efternamn",
+        "email": "E-post",
+        "company": "Företagsnamn",
+        "link": "Videolänk",
+        "need": {
+          "name": "Vad behöver du?",
+          "one": "Transkriberade undertexter",
+          "two": "Översatta undertexter"
+        },
+        "textare": {
+            "name": "Andra detaljer, önskemål eller frågor",
+            "placeholder": "Beskrivning"
+        },
+        "btn": "Begär en gratis offert"
+    }
+  },
+  "faqs": {
+    "title": "Vanliga frågor",
+    "question1": {
+      "name": "Vad är Lorem Ipsum?",
+      "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nemo reprehenderit ipsam atque vel, quisquam voluptatem quod accusamus, dolorem harum quam obcaecati asperiores nisi soluta amet! Rerum sequi iusto qui."
+    },
+    "question2": {
+      "name": "Varför använder vi det?",
+      "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nemo reprehenderit ipsam atque vel, quisquam voluptatem quod accusamus, dolorem harum quam obcaecati asperiores nisi soluta amet! Rerum sequi iusto qui."
+    },
+    "question3": {
+      "name": "Varifrån kommer det?",
+      "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nemo reprehenderit ipsam atque vel, quisquam voluptatem quod accusamus, dolorem harum quam obcaecati asperiores nisi soluta amet! Rerum sequi iusto qui."
+    },
+    "question4": {
+      "name": "Var kan jag få tag i det?",
+      "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nemo reprehenderit ipsam atque vel, quisquam voluptatem quod accusamus, dolorem harum quam obcaecati asperiores nisi soluta amet! Rerum sequi iusto qui."
+    },
+    "question5": {
+      "name": "Vad är poängen med att använda Lorem Ipsum?",
+      "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nemo reprehenderit ipsam atque vel, quisquam voluptatem quod accusamus, dolorem harum quam obcaecati asperiores nisi soluta amet! Rerum sequi iusto qui."
+    },
+    "question6": {
+      "name": "Är Lorem Ipsum helt enkelt slumpmässig text?",
+      "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nemo reprehenderit ipsam atque vel, quisquam voluptatem quod accusamus, dolorem harum quam obcaecati asperiores nisi soluta amet! Rerum sequi iusto qui."
+    }
+  },
+  "footer": "Alla rättigheter förbehållna"
+}

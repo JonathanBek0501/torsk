@@ -1,7 +1,7 @@
 <template>
     <section id="faqs" class="pb-20 pt-10 space-y-10 px-4 lg:px-0">
         <h2 class="text-3xl md:text-4xl xl:text-5xl font-bold text-center max-w-xl mx-auto">
-            FAQs
+            {{t("faqs.title")}}
         </h2>
         <div class="max-w-5xl mx-auto bg-white rounded-lg shadow-lg py-5 md:py-10 lg:py-20 px-5">
             <div class="w-full max-w-3xl mx-auto">
@@ -56,36 +56,37 @@
 </template>
 
 <script setup>
+const { t } = useI18n()
 // Define FAQs
 const faqs = ref([
   {
-    question: 'What is Lorem Ipsum?',
-    answer: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae nemo reprehenderit ipsam atque vel, quisquam voluptatem quod accusamus, dolorem harum quam obcaecati asperiores nisi soluta amet! Rerum sequi iusto qui.',
+    question: t("faqs.question1.name"),
+    answer: t("faqs.question1.answer"),
     isOpen: false,
   },
   {
-    question: 'Why do we use it?',
-    answer: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae nemo reprehenderit ipsam atque vel, quisquam voluptatem quod accusamus, dolorem harum quam obcaecati asperiores nisi soluta amet! Rerum sequi iusto qui.',
+    question: t("faqs.question2.name"),
+    answer: t("faqs.question1.answer"),
     isOpen: false,
   },
   {
-    question: 'Where does it come from?',
-    answer: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae nemo reprehenderit ipsam atque vel, quisquam voluptatem quod accusamus, dolorem harum quam obcaecati asperiores nisi soluta amet! Rerum sequi iusto qui.',
+    question: t("faqs.question3.name"),
+    answer: t("faqs.question1.answer"),
     isOpen: false,
   },
   {
-    question: 'Where can I get some?',
-    answer: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae nemo reprehenderit ipsam atque vel, quisquam voluptatem quod accusamus, dolorem harum quam obcaecati asperiores nisi soluta amet! Rerum sequi iusto qui.',
+    question: t("faqs.question4.name"),
+    answer: t("faqs.question1.answer"),
     isOpen: false,
   },
   {
-    question: 'What is the point of using Lorem Ipsum?',
-    answer: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae nemo reprehenderit ipsam atque vel, quisquam voluptatem quod accusamus, dolorem harum quam obcaecati asperiores nisi soluta amet! Rerum sequi iusto qui.',
+    question: t("faqs.question5.name"),
+    answer: t("faqs.question1.answer"),
     isOpen: false,
   },
   {
-    question: 'Is Lorem Ipsum simply random text?',
-    answer: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae nemo reprehenderit ipsam atque vel, quisquam voluptatem quod accusamus, dolorem harum quam obcaecati asperiores nisi soluta amet! Rerum sequi iusto qui.',
+    question: t("faqs.question6.name"),
+    answer: t("faqs.question1.answer"),
     isOpen: false,
   },
 ]);

@@ -1,0 +1,81 @@
+{
+  "nav": {
+    "home": "Home",
+    "faqs": "FAQs",
+    "quote": "Request a quote"
+  },
+  "hero": {
+    "title": "Welcome",
+    "text": "to my subtitling and translation service. Are you looking for a hassle-free process of adding subtitles to your video content? Look no further!",
+    "btn": "Book free quote NOW"
+  },
+  "reviews": {
+    "title": "What customers think about us",
+    "btn": "Gig on Fiverr"
+  },
+  "book": {
+    "title": "Booking is",
+    "color-title": "Simple, Quick,",
+    "color-title2": "and Accurate.",
+    "simple": {
+      "name": "Simple",
+      "text": "All you need to do is to send me a download link to your video, and I will take care of the rest! I will transcribe the audio, translate it if requested, and create a subtitle file supported by all major video platforms."
+    },
+    "quick": {
+      "name": "Quick",
+      "text": "Subtitles will be delivered within 24 hours or at most 3 days from your request."
+    },
+    "accurate": {
+      "name": "Accurate",
+      "text": "Your subtitles will adhere to international",
+      "bold": "standarts",
+      "text2": "and have perfect sync."
+    },
+    "description": "An invoice will be sent to you after the delivery of the subtitles. If you find any errors or misunderstandings, please reach out and I will correct them free of charge.",
+    "form": {
+      "first": "First Name",
+      "last": "Last Name",
+      "email": "Email",
+      "company": "Company Name",
+      "link": "Video Link",
+      "need": {
+        "name": "What do you need?",
+        "one": "Transcription subtitles",
+        "two": "Translation subtitles"
+      },
+      "textare": {
+        "name": "Other details, requests, or questions",
+        "placeholder": "Description"
+      },
+      "btn": "Request a free quote"
+    }
+  },
+  "faqs": {
+    "title": "FAQs",
+    "question1": {
+      "name": "What is Lorem Ipsum?",
+      "answer": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae nemo reprehenderit ipsam atque vel, quisquam voluptatem quod accusamus, dolorem harum quam obcaecati asperiores nisi soluta amet! Rerum sequi iusto qui."
+    },
+    "question2": {
+      "name": "Why do we use it?",
+      "answer": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae nemo reprehenderit ipsam atque vel, quisquam voluptatem quod accusamus, dolorem harum quam obcaecati asperiores nisi soluta amet! Rerum sequi iusto qui."
+    },
+    "question3": {
+      "name": "Where does it come from?",
+      "answer": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae nemo reprehenderit ipsam atque vel, quisquam voluptatem quod accusamus, dolorem harum quam obcaecati asperiores nisi soluta amet! Rerum sequi iusto qui."
+    },
+    "question4": {
+      "name": "Where can I get some?",
+      "answer": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae nemo reprehenderit ipsam atque vel, quisquam voluptatem quod accusamus, dolorem harum quam obcaecati asperiores nisi soluta amet! Rerum sequi iusto qui."
+    },
+    "question5": {
+      "name": "What is the point of using Lorem Ipsum?",
+      "answer": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae nemo reprehenderit ipsam atque vel, quisquam voluptatem quod accusamus, dolorem harum quam obcaecati asperiores nisi soluta amet! Rerum sequi iusto qui."
+    },
+    "question6": {
+      "name": "Is Lorem Ipsum simply random text?",
+      "answer": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae nemo reprehenderit ipsam atque vel, quisquam voluptatem quod accusamus, dolorem harum quam obcaecati asperiores nisi soluta amet! Rerum sequi iusto qui."
+    }
+  },
+  "footer": "All rights reserved"
+}
